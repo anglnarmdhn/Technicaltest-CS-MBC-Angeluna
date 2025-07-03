@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MBC Laboratory</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<script>
+  const burger = document.getElementById('burger');
+  const navLinks = document.getElementById('navLinks');
+
+  burger.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+  <div class="navbar-container">
+    <a href="index.html" class="logo">
+      <img src="Assets/mbclogo.png" alt="logo" />
+    </a>
+
+    <div class="burger" id="burger"><i class="ri-menu-line"></i></div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="divisi.html">Division</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="develop.html">Developer</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- DEVELOPER SECTION -->
+<section class="developer-section animated">
+
+  <div class="dev-container">
+    <div class="dev-card-box">
+      <div class="dev-photo">
+        <img src="Assets/lun.png" alt="Angeluna Ramadhani">
+      </div>
+      <div class="dev-info">
+        <h2>Angeluna Ramadhani</h2>
+        <p class="desc">Mahasiswa Teknik Telekomunikasi Telkom University</p>
+
+        <div class="dev-box">
+          <h3><i class="ri-code-s-slash-line"></i> Kompetensi</h3>
+          <p>Pemahaman dasar Coding & Website</p>
+        </div>
+
+        <div class="dev-box">
+          <h3><i class="ri-github-fill"></i> GitHub</h3>
+          <a href="https://github.com/anglnarmdhn" target="_blank" class="github-link">github.com/anglnnarmdhn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="slogan">
+    <div class="wrapper">
+      <div class="footer">
+        <div class="footer-section">
+          <h4>We Attack  We Protect</h4>
+          <p1>&copy; 2025. <b>AngelunaRamadhani</b> All Rights Reserved.</p1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

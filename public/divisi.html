@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MBC Laboratory</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<script>
+  const burger = document.getElementById('burger');
+  const navLinks = document.getElementById('navLinks');
+
+  burger.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+  <div class="navbar-container">
+    <a href="index.html" class="logo">
+      <img src="Assets/mbclogo.png" alt="logo" />
+    </a>
+
+    <div class="burger" id="burger"><i class="ri-menu-line"></i></div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="divisi.html">Division</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="develop.html">Developer</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- DIVISION SECTION -->
+<section class="division-page">
+  <h1>Introduce Our Divisions</h1>
+  <div class="division-grid">
+
+    <!-- CYBER SECURITY -->
+<div class="division-card fade-up">
+  <i class="ri-shield-keyhole-line icon red"></i>
+  <h2>Cyber Security</h2>
+  <p>
+    Divisi Riset Cyber Security di Laboratorium Multimedia Application, Big Data, dan Cybersecurity (MBC) Telkom University merupakan kelompok yang berfokus pada penelitian dan pengembangan di bidang keamanan siber. Divisi ini bertujuan untuk memperkuat kemampuan teknis serta memperdalam pengetahuan mahasiswa dalam menghadapi ancaman siber yang semakin kompleks. Selain melakukan riset, divisi ini juga berperan sebagai grup belajar, dimana anggota dapat berbagi wawasan, memecahkan masalah, dan berkolaborasi dalam berbagai proyek yang mencakup topik-topik seperti analisis malware, keamanan jaringan, kriptografi, dan forensik digital.
+  </p>
+</div>
+
+<!-- BIG DATA -->
+<div class="division-card fade-up">
+  <i class="ri-database-2-line icon blue"></i>
+  <h2>Big Data</h2>
+  <p>
+    Divisi Big Data di MBC Telkom University berfokus pada penelitian dan pengembangan teknologi serta aplikasi data skala besar untuk mendukung pengambilan keputusan berbasis data. Divisi ini mengeksplorasi teknik pengolahan data seperti data mining, machine learning, dan data analytics, serta penggunaan teknologi big data seperti Hadoop, Spark, dan NoSQL. Anggota divisi juga aktif berdiskusi dan berkolaborasi untuk menghasilkan solusi inovatif yang relevan secara industri.
+  </p>
+</div>
+
+<!-- GIS -->
+<div class="division-card fade-up">
+  <i class="ri-earth-line icon green"></i>
+  <h2>GIS</h2>
+  <p>
+    Divisi Geographic Information System (GIS) berfokus pada riset teknologi pemetaan dan analisis data geospasial. Mahasiswa didukung untuk memecahkan masalah spasial seperti perencanaan kota dan risiko bencana dengan perangkat seperti ArcGIS dan QGIS. Divisi ini juga mendorong diskusi dan kolaborasi untuk solusi berbasis lokasi yang berkelanjutan.
+  </p>
+</div>
+
+<!-- GAME TECH -->
+<div class="division-card fade-up">
+  <i class="ri-gamepad-line icon purple"></i>
+  <h2>Game Tech</h2>
+  <p>
+    Divisi Game Tech fokus pada riset dan pengembangan teknologi game, mencakup desain, pemrograman, animasi, dan virtual reality. Menggunakan game engine seperti Unity dan Unreal, anggota divisi membangun proyek game edukatif dan hiburan, serta berkolaborasi dalam pengembangan simulasi untuk pelatihan atau penelitian.
+  </p>
+</div>
+
+  </div>
+</section>
+
+<div id="slogan">
+    <div class="wrapper">
+      <div class="footer">
+        <div class="footer-section">
+          <h4>We Attack  We Protect</h4>
+          <p>&copy; 2025. <b>AngelunaRamadhani</b> All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MBC Laboratory</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<script>
+  const burger = document.getElementById('burger');
+  const navLinks = document.getElementById('navLinks');
+
+  burger.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+  <div class="navbar-container">
+    <a href="index.html" class="logo">
+      <img src="Assets/mbclogo.png" alt="logo" />
+    </a>
+
+    <div class="burger" id="burger"><i class="ri-menu-line"></i></div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="divisi.html">Division</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="develop.html">Developer</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- KONTAK -->
+<section class="contact-section fade-up">
+  <h1>Contact Us</h1>
+
+  <div class="contact-grid">
+
+    <!-- FORM KONTAK -->
+    <form id="contactForm" class="contact-form">
+  <h2>Sent your Message here!</h2>
+
+  <input type="text" id="name" placeholder="Name" required />
+  <input type="email" id="email" placeholder="Email" required />
+  <textarea id="message" placeholder="Message" rows="5" required></textarea>
+
+  <button type="submit">Sent</button>
+
+</form>
+
+    <!-- INFO KONTAK -->
+    <div class="contact-info">
+      <h2>Information</h2>
+      <p><i class="ri-map-pin-line"></i> Telkom University, TULT 13.04, TULT 11.12, Jl. Telekomunikasi No. 1, Sukapura, Bandung</p>
+      <p><i class="ri-mail-line"></i> mbclab1234@gmail.com</p>
+      <p><i class="ri-phone-line"></i> 0813-2004-0469</p>
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63313.15247141985!2d107.57097365!3d-6.975244699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9bd909761a3%3A0x75e9c7f7d2eac216!2sTelkom%20University!5e0!3m2!1sen!2sid!4v1684567890123"
+          width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div id="slogan">
+    <div class="wrapper">
+      <div class="footer">
+        <div class="footer-section">
+          <h4>We Attack  We Protect</h4>
+          <p>&copy; 2025. <b>AngelunaRamadhani</b> All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="contact.js"></script>
+</body>
+</html>

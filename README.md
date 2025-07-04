@@ -1,5 +1,5 @@
 # Technical Test Cyber Security MBC Laboratory - Landing Page Project
-Website atau Landing Page ini dibuat untuk memenuhi tugas technical test MBC Lab divisi Cyber Security. Website ini dibuat untuk memenuhi tugas technical test Lab MBC. Project ini terdiri dari frontend berbasis HTML & CSS, serta backend sederhana menggunakan Node.js untuk mengelola form kontak. Project ini telah dideploy secara online menggunakan Vercel.
+Website atau Landing Page ini dibuat untuk memenuhi tugas technical test MBC Lab divisi Cyber Security. Project ini terdiri dari frontend berbasis HTML & CSS, serta backend sederhana menggunakan Node.js untuk mengelola form kontak. Project ini telah dideploy secara online menggunakan Vercel.
 
 ## Live Website : 
 https://technicaltest-cs-mbc-angeluna.vercel.app/

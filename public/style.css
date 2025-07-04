@@ -1,4 +1,3 @@
-/* RESET */
 body {
   margin: 0;
   padding: 0;
@@ -7,7 +6,6 @@ body {
   color: #333;
 }
 
-/* NAVBAR */
 .navbar {
   background: #fff;
   padding: 16px 24px;
@@ -44,7 +42,6 @@ body {
   color: #c91e1e;
 }
 
-/* BURGER ICON */
 .burger {
   display: none;
   font-size: 26px;
@@ -52,11 +49,10 @@ body {
   color: #333;
 }
 
-/* RESPONSIVE MENU */
-/* Default: menu hidden on small screen */
+
 @media screen and (max-width: 768px) {
   .nav-links {
-    display: none; /* ⬅️ penting banget ini */
+    display: none; 
     flex-direction: column;
     position: absolute;
     top: 70px;
@@ -69,7 +65,7 @@ body {
   }
 
   .nav-links.show {
-    display: flex; /* ⬅️ baru muncul saat class 'show' ditambahin lewat JS */
+    display: flex; 
   }
 }
 
@@ -135,7 +131,6 @@ body {
   color: #007bff;
 }
 
-/* HOME */
 .home-section {
   text-align: center;
   padding: 100px 20px;
@@ -167,7 +162,6 @@ body {
   background-color: #0056b3;
 }
 
-/* SECTION: About, Visi, Misi */
 .about-section,
 .visi-section,
 .misi-section {
@@ -207,7 +201,6 @@ body {
   line-height: 1.5;
 }
 
-/* ANIMASI FADE + SLIDE UP */
 .fade-up {
   opacity: 0;
   transform: translateY(30px);
@@ -228,7 +221,6 @@ body {
   }
 }
 
-/* DIVISION PAGE */
 .division-page {
   max-width: 1200px;
   margin: 60px auto;
@@ -394,7 +386,6 @@ body {
   transform: scale(1.05);
 }
 
-/* Gradient background untuk section */
 .developer-section {
   background: linear-gradient(135deg, #ffffff, #f9f9fc);
   padding: 80px 20px;
@@ -408,7 +399,6 @@ body {
   50% { border-color: transparent }
 }
 
-/* Slide in animation */
 .dev-photo {
   animation: slideInLeft 1s ease forwards;
 }
@@ -425,7 +415,6 @@ body {
   to { opacity: 1; transform: translateX(0); }
 }
 
-/* Glowing hover on photo */
 .dev-photo img {
   width: 260px;
   height: 260px;

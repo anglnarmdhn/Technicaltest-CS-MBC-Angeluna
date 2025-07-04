@@ -118,7 +118,7 @@ Namun, saat ini *form kontak belum dapat berfungsi secara penuh*, karena:
 - Form tidak dapat melakukan request ke localhost dari halaman yang dideploy di Vercel (karena perbedaan origin/domain).
 - Belum ada mekanisme autentikasi atau email handler (misal: nodemailer) yang aktif.
 
-Sehingga, *pengguna tetap dapat mengisi form, tetapi **pengiriman pesan tidak benar-benar terjadi*. Saya menyadari adanya keterbatasan dari sistem Backend ini sehingga tidak dapat diaplikasikan secara ideal. Namun, saya yakin jika lebih dimaksimalkan dengan pemahaman yang cukup pasti akan berjalan dengan maksimal.
+Sehingga, pengguna tetap dapat mengisi form, tetapi pengiriman pesan tidak benar-benar terjadi. Saya menyadari adanya keterbatasan dari sistem Backend ini sehingga tidak dapat diaplikasikan secara ideal. Namun, saya yakin jika lebih dimaksimalkan dengan pemahaman yang cukup pasti akan berjalan dengan maksimal.
 
 ## 🖥️ Tampilan Halaman Website 
 1. Halaman Utama
